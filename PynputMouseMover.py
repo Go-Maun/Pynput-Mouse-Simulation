@@ -95,9 +95,9 @@ def main():
     # pressing escape will stop this loop
     while listener.running:
 
-        # comment out which one you dont want to use, ive never had both running, that seems like it will go completely wrong
+        # comment out which one you dont want to use
         square(mouseCon, right, left, up, down, speed, displacementX, displacementY, currentPosition, startPosition)
-        degree = circle(mouseCon, startPosition, radius, degree, speed)
+        # degree = circle(mouseCon, startPosition, radius, degree, speed)
 
         # end of loop logic
         currentPosition = mouseCon.position
